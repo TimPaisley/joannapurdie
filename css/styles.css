@@ -8,6 +8,17 @@
     padding-left: 10px;
 }
 
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centre img {
+    max-height: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -23,4 +34,11 @@ li {
 
 img {
     max-width: 100%;
+}
+
+body.christmas {
+    background-image: url("../images/christmas-bg.jpg");
+    background-repeat: repeat;
+    background-color: #000;
+    color: #fff;
 }
